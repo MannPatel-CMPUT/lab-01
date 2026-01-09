@@ -8,8 +8,8 @@ public class Cat extends Pet implements Pettable{
         super(name);
 
     }
-    public  Cat(String name, Date birthdate){
-        super(name, birthdate);
+    public  Cat(String name, Date birthDate){
+        super(name, birthDate);
     }
 
     @Override

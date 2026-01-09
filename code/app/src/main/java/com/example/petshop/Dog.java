@@ -6,8 +6,8 @@ public class Dog extends Pet implements Pettable{public Dog(String name){
     super(name);
 
 }
-    public  Dog(String name, Date birthdate){
-        super(name, birthdate);
+    public  Dog(String name, Date birthDate){
+        super(name, birthDate);
     }
 
     @Override

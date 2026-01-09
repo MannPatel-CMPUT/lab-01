@@ -4,16 +4,16 @@ import java.util.Date;
 
 public  abstract class Pet {
     private String name;
-    private Date birthdate;
+    private Date birthDate;
 
     public Pet(String name){
         this.name = name;
-        this.birthdate = new Date();
+        this.birthDate = new Date();
     }
 
-    public Pet(String name, Date birthdate){
+    public Pet(String name, Date birthDate){
         this.name = name;
-        this.birthdate = birthdate;
+        this.birthDate = birthDate;
     }
 
     public String getName() {
@@ -24,12 +24,12 @@ public  abstract class Pet {
         this.name = name;
     }
 
-    public Date getBirthdate() {
-        return birthdate;
+    public Date getbirthDate() {
+        return birthDate;
     }
 
-    public void setBirthdate(Date birthdate) {
-        this.birthdate = birthdate;
+    public void setbirthDate(Date birthDate) {
+        this.birthDate = birthDate;
     }
 
 

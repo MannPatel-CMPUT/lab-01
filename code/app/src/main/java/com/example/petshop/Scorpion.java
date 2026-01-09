@@ -7,8 +7,8 @@ public class Scorpion extends Pet{
         super(name);
 
     }
-    public  Scorpion(String name, Date birthdate){
-        super(name, birthdate);
+    public  Scorpion(String name, Date birthDate){
+        super(name, birthDate);
     }
 
     @Override
